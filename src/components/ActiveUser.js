@@ -28,20 +28,19 @@ export default ({ data, active }) => {
 					</td>
 				</tr>
 				<tr>
-					<td>Адрес проживания: </td>
+					<td>Адрес проживания:</td>
 					<td><b>{user.address.streetAddress}</b></td>
 				</tr>
 				<tr>
-					<td>Город: </td>
+					<td>Город:</td>
 					<td><b>{user.address.city}</b></td>
 				</tr>
 				<tr>
-					<td>Провинция/штат:{' '}
-					</td>
+					<td>Провинция/штат:</td>
 					<td><b>{user.address.state}</b></td>
 				</tr>
 				<tr>
-					<td>Индекс: </td>
+					<td>Индекс:</td>
 					<td><b>{user.address.zip}</b></td>
 				</tr>
 			</tbody>
