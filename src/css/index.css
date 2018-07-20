@@ -1,0 +1,31 @@
+.index_table {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.index_btn:hover {
+  background-color: #ccc;
+}
+
+.page_item {
+  background-color: #fff;
+  border: solid 1px #dc3545;
+  padding: 8px 12px;
+}
+
+.page_item:hover {
+  background-color: #dc3545;
+  color: #fff;
+  cursor: pointer;
+}
+
+.index_pagin {
+  background-color: #fff;
+}
+
+.page_item_active {
+  background-color: #dc3545;
+  color: #fff;
+  border: solid 1px #dc3545;
+  padding: 8px 12px;
+}
